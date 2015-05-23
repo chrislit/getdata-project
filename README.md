@@ -13,7 +13,8 @@ run_analysis.R works as follows:
  6. test.df and train.df are combined with rbind and stored as sensor.df.
  7. Column labels are applied to sensor.df.
  8. Activity ids are converted to activity names from "activity_labels.txt".
- 9. Temporary variables are purged from memory.
- 10. subj.activity.means.df is created by grouping by Subject & Activity and applying the mean function to
+ 9. Each of the derived numeric column names has its parentheses deleted and hyphens converted to underscores.
+ 10. Temporary variables are purged from memory.
+ 11. subj.activity.means.df is created by grouping by Subject & Activity and applying the mean function to
      the values in each of the other columns (using summarise_each(funs(mean))).
- 11. The resulting table is written to disk for submission.
+ 12. The resulting table is written to disk for submission.
