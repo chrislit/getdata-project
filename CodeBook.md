@@ -29,5 +29,71 @@ For further details, see the accompanying README.md file.
 The two data frames contain the same set of column names:
   1. Subject: An ID ranging from 1 to 30
   2. Activity: A factor from the set WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-  3. 
-  3. 
+
+And then a set of 66 numeric values drawn directly from the UCI HAR Dataset:
+  3. tBodyAcc_mean_X
+  3. tBodyAcc_mean_Y
+  3. tBodyAcc_mean_Z
+  3. tBodyAcc_std_X
+  3. tBodyAcc_std_Y
+  3. tBodyAcc_std_Z
+  3. tGravityAcc_mean_X
+  3. tGravityAcc_mean_Y
+  3. tGravityAcc_mean_Z
+  3. tGravityAcc_std_X
+  3. tGravityAcc_std_Y
+  3. tGravityAcc_std_Z
+  3. tBodyAccJerk_mean_X
+  3. tBodyAccJerk_mean_Y
+  3. tBodyAccJerk_mean_Z
+  3. tBodyAccJerk_std_X
+  3. tBodyAccJerk_std_Y
+  3. tBodyAccJerk_std_Z
+  3. tBodyGyro_mean_X
+  3. tBodyGyro_mean_Y
+  3. tBodyGyro_mean_Z
+  3. tBodyGyro_std_X
+  3. tBodyGyro_std_Y
+  3. tBodyGyro_std_Z
+  3. tBodyGyroJerk_mean_X
+  3. tBodyGyroJerk_mean_Y
+  3. tBodyGyroJerk_mean_Z
+  3. tBodyGyroJerk_std_X
+  3. tBodyGyroJerk_std_Y
+  3. tBodyGyroJerk_std_Z
+  3. tBodyAccMag_mean
+  3. tBodyAccMag_std
+  3. tGravityAccMag_mean
+  3. tGravityAccMag_std
+  3. tBodyAccJerkMag_mean
+  3. tBodyAccJerkMag_std
+  3. tBodyGyroMag_mean
+  3. tBodyGyroMag_std
+  3. tBodyGyroJerkMag_mean
+  3. tBodyGyroJerkMag_std
+  3. fBodyAcc_mean_X
+  3. fBodyAcc_mean_Y
+  3. fBodyAcc_mean_Z
+  3. fBodyAcc_std_X
+  3. fBodyAcc_std_Y
+  3. fBodyAcc_std_Z
+  3. fBodyAccJerk_mean_X
+  3. fBodyAccJerk_mean_Y
+  3. fBodyAccJerk_mean_Z
+  3. fBodyAccJerk_std_X
+  3. fBodyAccJerk_std_Y
+  3. fBodyAccJerk_std_Z
+  3. fBodyGyro_mean_X
+  3. fBodyGyro_mean_Y
+  3. fBodyGyro_mean_Z
+  3. fBodyGyro_std_X
+  3. fBodyGyro_std_Y
+  3. fBodyGyro_std_Z
+  3. fBodyAccMag_mean
+  3. fBodyAccMag_std
+  3. fBodyBodyAccJerkMag_mean
+  3. fBodyBodyAccJerkMag_std
+  3. fBodyBodyGyroMag_mean
+  3. fBodyBodyGyroMag_std
+  3. fBodyBodyGyroJerkMag_mean
+  3. fBodyBodyGyroJerkMag_std
