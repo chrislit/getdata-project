@@ -36,8 +36,10 @@ train.df <- cbind(read.table(file = expand.path("train/subject_train.txt")),
 sensor.df <- rbind(test.df, train.df)
 names(sensor.df) <- c("Subject", "Activity", as.character(features[means.and.stds,2]))
 
-# Substitute descriptive names for activities
+# Substitute descriptive names for activities and make other variable names prettier
 sensor.df$Activity <- activity$type[sensor.df$Activity]
+names(sensor.df) <- gsub("[\\(\\)]", "", names(sensor.df))
+names(sensor.df) <- gsub("-", "_", names(sensor.df))
 
 # Clear no longer needed data from memory
 rm(test.df, train.df, features, means.and.stds, activity)
